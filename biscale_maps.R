@@ -26,7 +26,7 @@ bi_map <- ggplot() +
   geom_sf(data = bi_data, mapping = aes(fill = bi_class), color = "white", size = 0.1, show.legend = FALSE) +
   bi_scale_fill(pal = "BlueGold", dim = 3) +
   bi_theme() +
-  labs(title = "<span style='color:#0072B2;'>Race</span> and <span style='color:#D4A017;'>income</span> in the PNW",
+  labs(title = "<span style='color:#0072B2;'>Race</span> and <span style='color:#D4A017;'>income</span> in the Pacific Northwest",
        caption = "@GabeOsterhout | ACS tables B02001 (race) & B19013 (household income) by census tract") +
   theme(plot.title = element_markdown())
 
